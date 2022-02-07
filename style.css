@@ -125,8 +125,8 @@ header {
 
 .wave_text h1 {
     font-size: 60px;
-    font-family: 'Rowdies', cursive;
-    ;
+    font-family: 'Rowdies';
+
     color: white;
 }
 
@@ -232,6 +232,7 @@ header {
 }
 
 .login_modal {
+    overflow: auto;
     width: 40%;
     padding: 30px;
     border-radius: 20px;
@@ -669,7 +670,49 @@ header {
     }
 
     .login_modal {
-        width: 95%;
+        width: 90%;
+        padding: 15px;
+        height: 75vh;
+    }
+
+    .Country select {
+        padding: 10px 8px;
+        font-size: 13px;
+    }
+
+    #PN {
+        padding: 10px 8px;
+        font-size: 13px;
+    }
+
+    #login_P {
+        font-size: 11px;
+    }
+
+    #cont_btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .facebook h4, .google h4, .apple h4, .email h4, .phone h4 {
+        font-size: 13px;
+    }
+
+    .facebook img, .google img, .apple img, .email img, .phone img {
+        height: 20px;
+    }
+
+    .facebook, .google, .apple, .email, .phone {
+        padding: 9px;
+    }
+
+    .social_login {
+        gap: 12px;
+    }
+
+    #email_input {
+        padding: 10px 8px;
+        font-size: 13px;
     }
 
     .wave_div_mobile {
@@ -723,7 +766,8 @@ header {
     }
 
     .wave_mobile_text h4 {
-        font-size: 32px;
+        font-family: 'Rowdies';
+        font-size: 35px;
         color: white;
         font-weight: 800;
         line-height: 42px;
