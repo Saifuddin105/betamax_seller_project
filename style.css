@@ -1,0 +1,858 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 30px 155px;
+    background: #008296;
+    display: flex;
+    z-index: 2;
+}
+
+
+.logo_text {
+    width: 65%;
+}
+
+.buttons {
+    display: flex;
+    width: 35%;
+    justify-content: flex-end;
+    gap: 60px;
+}
+
+#login_btn {
+    margin-top: 10px;
+}
+
+#login_btn a {
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    text-decoration: underline;
+    letter-spacing: 1px;
+
+
+}
+
+#login_btn :hover {
+    text-decoration: none;
+
+
+
+}
+
+#signup_btn {
+    background-color: #f90;
+    border: 2px solid #f90;
+    box-shadow: 0 0 16px rgb(0 0 0 / 20%);
+    color: #232f3e;
+    padding: 9px 25px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.signup_btn_wave {
+    background-color: #f90;
+    border: 2px solid #f90;
+    box-shadow: 0 0 16px rgb(0 0 0 / 20%);
+    color: #232f3e;
+    padding: 12px 45px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.signup_btn_wave:hover {
+    transform: scale(1.05);
+}
+
+
+.BFC_btn {
+    border: 2px solid white;
+    background: #161E2D;
+    color: white;
+    padding: 14px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.BFC_btn:hover {
+    transform: scale(1.05);
+}
+
+.button_div_wave {
+    margin-top: 60px;
+    display: flex;
+    gap: 45px;
+}
+
+.logo_text h4 {
+    font-size: 20px;
+    margin-top: 8px;
+    font-weight: 500;
+
+}
+
+/* wave shape style */
+.wave_div {
+    position: relative;
+    width: 100%;
+
+    margin-top: 108px;
+    min-height: 50vh;
+
+
+}
+
+.wave_text h1 {
+    font-size: 60px;
+    font-family: 'Rowdies', cursive;
+    ;
+    color: white;
+}
+
+.wave_text p {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.left_side_wave {
+    width: 55%;
+}
+
+.wave_text_button {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 50px 150px;
+}
+
+.right_side_wave img {
+    height: 500px;
+    filter: drop-shadow(2px 2px 10px black);
+}
+
+.custom-shape-divider-top-1644091419 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1644091419 svg {
+    position: relative;
+    display: block;
+    width: calc(168% + 1.3px);
+    height: 70vh;
+}
+
+.custom-shape-divider-top-1644091419 .shape-fill {
+    fill: #008296;
+}
+
+/* wave shape style */
+.learn_more_content {
+    margin-top: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.learn_more_content img {
+    height: 50px;
+    width: 50px;
+}
+
+.LM_1 {
+    width: 25%;
+    border-radius: 8px;
+    box-shadow: 0 0 32px rgb(0 0 0 / 30%);
+    background: #f0f1f200;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.LM_1 h4 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.LM_1 p {
+    color: #6c7778;
+    font-size: 16px;
+}
+
+.how_it_works {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.how_it_works a {
+    margin-top: -9px;
+}
+
+.how_it_works img:hover {
+    color: blue;
+    transform: scale(1.2);
+}
+
+.login_modal {
+    width: 40%;
+    padding: 30px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgb(0 0 0 / 28%) 0px 8px 28px !important;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+    height: 90vh;
+    margin-top: 30px;
+}
+
+.login_modal_bg {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0, .6);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+    z-index: 3;
+}
+
+.bg-active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal_div_1 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.modal_div_1 h4 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal_div_1 img {
+    height: 22px;
+}
+
+#welcome {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.Country select {
+    border: 1px solid lightgray;
+    padding: 16px 8px;
+    line-height: 22px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+#PN {
+    width: 100%;
+    padding: 16px 8px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#email_input {
+    width: 100%;
+    padding: 16px 8px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#login_P {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#cont_btn {
+    width: 100%;
+    margin-top: 10px;
+    background: radial-gradient(circle at center center, rgb(255, 56, 92) 0%, rgb(230, 30, 77) 27.5%, rgb(227, 28, 95) 40%, rgb(215, 16, 102) 57.5%, rgb(189, 30, 89) 75%, rgb(189, 30, 89) 100%);
+    color: white;
+    padding: 12px;
+    border-radius: 13px;
+    border: none;
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+#login_p2 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.facebook img, .google img, .apple img, .email img, .phone img {
+    height: 25px;
+}
+
+.facebook, .google, .apple, .email, .phone {
+    display: flex;
+    border: 1px solid lightgray;
+    padding: 12px;
+    padding-left: 12px;
+    padding-right: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.facebook:hover {
+    border: 2px solid black;
+}
+
+.google:hover {
+    border: 2px solid black;
+}
+
+.apple:hover {
+    border: 2px solid black;
+}
+
+.email:hover {
+    border: 2px solid black;
+}
+
+.phone:hover {
+    border: 2px solid black;
+}
+
+.facebook h4, .google h4, .apple h4, .email h4, .phone h4 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social_login {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.phone {
+    display: none;
+}
+
+.email_div {
+    display: none;
+}
+
+.footer_top img {
+    height: 20px;
+}
+
+.FT-1, .FT-2, .FT-3 {
+    display: flex;
+
+
+    gap: 10px;
+    background: #232F3E;
+    padding: 9px 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+.footer_top {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.footer_PC {
+    background: #161E2D;
+    padding: 20px 100px;
+}
+
+.footer_middle ul {
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer_middle ul a {
+    font-size: 14px;
+}
+
+.footer_middle {
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+.footer_middle a {
+    color: lightgrey
+}
+
+#title {
+    font-size: 16px;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.divider1 {
+    width: 100%;
+    height: 1px;
+    background: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer_bottom {
+
+    display: flex;
+    justify-content: space-between;
+    /* width: 80%; */
+    padding: 10px 50px;
+}
+
+.FB-1 h4 {
+    color: white;
+}
+
+.FB-2 {
+    display: flex;
+    gap: 50px;
+}
+
+.FB-2 a, .FB-2 p {
+    font-size: 14px;
+    color: lightgray;
+}
+
+.wave_div_mobile {
+    display: none;
+}
+
+.footer_mobile {
+    display: none;
+}
+
+.wave_div_tab {
+    display: none;
+}
+
+.footer_tab {
+    display: none;
+}
+
+@media only screen and (min-width:650px) and (max-width: 768px) {
+    .footer_mobile {
+        display: none;
+    }
+
+    .footer_PC {
+        display: none;
+    }
+
+    .footer_tab {
+        background: #161E2D;
+        padding: 20px 40px;
+        display: block;
+    }
+
+    .footer_bottom {
+        padding: 10px 4px;
+    }
+
+    .FB-1 {
+        width: 32%;
+    }
+
+    .FB-2 a, .FB-2 p {
+        font-size: 11px;
+    }
+
+    .footer_tab_middle {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer_tab_middle a {
+        color: lightgrey;
+        font-size: 13px;
+    }
+
+    .footer_tab_middle ul {
+        list-style: none;
+    }
+
+    .FMM_first {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .FMM-second {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .FMM-2, .FMM-4 {
+        width: 45%;
+    }
+
+    .wave_div {
+        display: none;
+    }
+
+    .learn_more_content {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 160px;
+    }
+
+    .login_modal {
+        width: 80%;
+    }
+
+    .LM_1 {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .wave_text h1 {
+        font-size: 50px;
+        line-height: 60px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .wave_text p {
+        font-size: 17px;
+    }
+
+    .button_div_wave {
+        flex-direction: column;
+        position: absolute;
+    }
+
+    header {
+        padding: 20px 35px;
+    }
+
+    .wave_div_tab {
+        margin-top: 88px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wave_tab_content {
+        width: 100%;
+        height: 50vh;
+        background-color: #008296;
+        display: flex;
+        padding: 50px 30px;
+        position: relative;
+    }
+
+    .right_side_wave img {
+        height: 365px;
+    }
+
+
+
+    .signup_btn_wave_tab {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 15px;
+        font-size: 15px;
+        background-color: #f90;
+        border: 2px solid #f90;
+        box-shadow: 0 0 16px rgb(0 0 0 / 20%);
+        color: #232f3e;
+        padding: 9px 25px;
+        border-radius: 20px;
+        font-size: 18px;
+        font-weight: 700;
+
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    .footer_tab {
+        display: none;
+    }
+
+    .wave_div_tab {
+        display: none;
+    }
+
+    .wave_div {
+        display: none;
+    }
+
+    .footer_PC {
+        display: none
+    }
+
+    #signup_btn {
+        display: none;
+    }
+
+    header {
+        padding: 10px 20px;
+    }
+
+    .logo_text h4 {
+        font-size: 15px;
+    }
+
+    #login_btn a {
+        font-size: 15px;
+    }
+
+    .learn_more_content {
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 60px;
+
+    }
+
+    .LM_1 {
+        width: 100%;
+    }
+
+    .login_modal {
+        width: 95%;
+    }
+
+    .wave_div_mobile {
+        display: block;
+        position: relative;
+    }
+
+    .wave_content_mobile {
+        margin-top: 53px;
+        width: 100%;
+        height: 70vh;
+        background-color: #008296;
+    }
+
+    .button_div_wave {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .signup_btn_wave_mobile {
+        width: 38%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 15px;
+        font-size: 15px;
+        background-color: #f90;
+        border: 2px solid #f90;
+        box-shadow: 0 0 16px rgb(0 0 0 / 20%);
+        color: #232f3e;
+        padding: 9px 25px;
+        border-radius: 20px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .BFC_btn {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+
+    .wave_mobile_text {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-top: 35px;
+
+    }
+
+    .wave_mobile_text h4 {
+        font-size: 32px;
+        color: white;
+        font-weight: 800;
+        line-height: 42px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+
+    .wave_mobile_text p {
+        font-size: 14px;
+        color: white;
+    }
+
+    .mobile_wave_img img {
+        position: absolute;
+        filter: drop-shadow(2px 2px 10px black);
+
+    }
+
+    .mobile_wave_img {
+        margin-top: 75px;
+
+    }
+
+    .wave_divider_mobile {
+        width: 90%;
+        background: lightgrey;
+        margin-top: 110px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 1px;
+    }
+
+    .footer_top_mobile img {
+        height: 20px;
+    }
+
+    .footer_mobile {
+        background: #161E2D;
+        padding: 30px 25px;
+        display: block;
+    }
+
+    .footer_top_mobile {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .FT-1, .FT-2, .FT-3 {
+        border-radius: 8px;
+        justify-content: center;
+
+
+    }
+
+    .footer_mobile_divider1 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 1px;
+        background: lightgrey;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer_mobile_middle {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer_mobile_middle ul {
+        list-style: none;
+    }
+
+    #title {
+        font-size: 13px;
+    }
+
+    .footer_mobile_middle a {
+        font-size: 10px;
+        color: grey;
+    }
+
+    .FMM_first, .FMM-second {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .FMM_third {
+        display: flex;
+
+    }
+
+    .footer_mobile_last {
+        text-align: center;
+    }
+
+    .footer_mobile_last h4 {
+        color: white;
+        font-size: 18px;
+        letter-spacing: 1px;
+
+    }
+
+    .terms_mobile_footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
+
+    }
+
+    .terms_mobile_footer a {
+        font-size: 12px;
+        color: grey;
+    }
+
+    .footer_mobile_last p {
+        font-size: 12px;
+        color: grey;
+    }
+
+    /* wave shape for mobile */
+
+
+    /* wave shape ends */
+}
