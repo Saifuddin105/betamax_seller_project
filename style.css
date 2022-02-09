@@ -285,12 +285,28 @@ header {
 
 .Country select {
     border: 1px solid lightgray;
-    padding: 16px 8px;
+
     line-height: 22px;
     font-size: 16px;
     width: 100%;
     border-radius: 10px;
+    padding-top: 28px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
 
+}
+
+.Count_reg {
+    position: absolute;
+    padding: 10px;
+
+}
+
+.Count_reg p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #777;
 }
 
 #PN {
@@ -678,6 +694,18 @@ header {
     .Country select {
         padding: 10px 8px;
         font-size: 13px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .Count_reg {
+        padding-top: 8px;
+        padding-left: 12px;
+    }
+    .Count_reg p{
+        font-size: 10px;
     }
 
     #PN {
