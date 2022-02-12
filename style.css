@@ -640,7 +640,293 @@ header {
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (min-width:350px) and (max-width: 376px) {
+    .footer_tab {
+        display: none;
+    }
+
+    .wave_div_tab {
+        display: none;
+    }
+
+    .wave_div {
+        display: none;
+    }
+
+    .footer_PC {
+        display: none
+    }
+
+    #signup_btn {
+        display: none;
+    }
+
+    header {
+        padding: 10px 20px;
+    }
+
+    .logo_text h4 {
+        font-size: 15px;
+    }
+
+    #login_btn a {
+        font-size: 15px;
+    }
+
+    .learn_more_content {
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 60px;
+
+    }
+
+    .LM_1 {
+        width: 100%;
+    }
+
+    .login_modal {
+        width: 90%;
+        padding: 15px;
+        height: 85vh;
+    }
+
+    .Country select {
+        padding: 10px 8px;
+        font-size: 13px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .Count_reg {
+        padding-top: 8px;
+        padding-left: 12px;
+    }
+
+    .Count_reg p {
+        font-size: 10px;
+    }
+
+    #PN {
+        padding: 10px 8px;
+        font-size: 13px;
+    }
+
+    #login_P {
+        font-size: 11px;
+    }
+
+    #cont_btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .facebook h4, .google h4, .apple h4, .email h4, .phone h4 {
+        font-size: 13px;
+    }
+
+    .facebook img, .google img, .apple img, .email img, .phone img {
+        height: 20px;
+    }
+
+    .facebook, .google, .apple, .email, .phone {
+        padding: 9px;
+    }
+
+    .social_login {
+        gap: 12px;
+    }
+
+    #email_input {
+        padding: 10px 8px;
+        font-size: 13px;
+    }
+
+    .wave_div_mobile {
+        display: block;
+        position: relative;
+    }
+
+    .wave_content_mobile {
+        margin-top: 53px;
+        width: 100%;
+        height: 85vh;
+        background-color: #008296;
+    }
+
+    .button_div_wave {
+        display: flex;
+        flex-direction: column;
+        margin-top: 35px;
+        gap: 25px;
+    }
+
+    .signup_btn_wave_mobile {
+        width: 38%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 15px;
+        font-size: 15px;
+        background-color: #f90;
+        border: 2px solid #f90;
+        box-shadow: 0 0 16px rgb(0 0 0 / 20%);
+        color: #232f3e;
+        padding: 9px 25px;
+        border-radius: 20px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .BFC_btn {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+
+    .wave_mobile_text {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-top: 35px;
+
+    }
+
+    .wave_mobile_text h4 {
+        font-family: 'Rowdies';
+        font-size: 35px;
+        color: white;
+        font-weight: 800;
+        line-height: 42px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+
+    .wave_mobile_text p {
+        font-size: 14px;
+        color: white;
+    }
+
+    .mobile_wave_img img {
+        position: absolute;
+        filter: drop-shadow(2px 2px 10px black);
+
+    }
+
+    .mobile_wave_img {
+        margin-top: 75px;
+
+    }
+
+    .wave_divider_mobile {
+        width: 90%;
+        background: lightgrey;
+        margin-top: 110px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 1px;
+    }
+
+    .footer_top_mobile img {
+        height: 20px;
+    }
+
+    .footer_mobile {
+        background: #161E2D;
+        padding: 30px 25px;
+        display: block;
+    }
+
+    .footer_top_mobile {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .FT-1, .FT-2, .FT-3 {
+        border-radius: 8px;
+        justify-content: center;
+
+
+    }
+
+    .footer_mobile_divider1 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 1px;
+        background: lightgrey;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer_mobile_middle {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer_mobile_middle ul {
+        list-style: none;
+    }
+
+    #title {
+        font-size: 13px;
+    }
+
+    .footer_mobile_middle a {
+        font-size: 10px;
+        color: grey;
+    }
+
+    .FMM_first, .FMM-second {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .FMM_third {
+        display: flex;
+
+    }
+
+    .footer_mobile_last {
+        text-align: center;
+    }
+
+    .footer_mobile_last h4 {
+        color: white;
+        font-size: 18px;
+        letter-spacing: 1px;
+
+    }
+
+    .terms_mobile_footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
+
+    }
+
+    .terms_mobile_footer a {
+        font-size: 12px;
+        color: grey;
+    }
+
+    .footer_mobile_last p {
+        font-size: 12px;
+        color: grey;
+    }
+}
+
+@media only screen and (min-width:376px) and (max-width: 450px) {
 
     .footer_tab {
         display: none;
@@ -704,7 +990,8 @@ header {
         padding-top: 8px;
         padding-left: 12px;
     }
-    .Count_reg p{
+
+    .Count_reg p {
         font-size: 10px;
     }
 
